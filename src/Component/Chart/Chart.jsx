@@ -10,10 +10,10 @@ useEffect(() => {
     const fecthAPI = async ()=>{
         setdailyData (await fetchDailyData());
     }
-    console.log(dailyData);
+  //  console.log(dailyData);
 
     fecthAPI();
-});
+},[]);
  
 const lineChart= (
  dailyData.length
