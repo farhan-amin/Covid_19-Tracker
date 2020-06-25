@@ -13,7 +13,7 @@ useEffect(() => {
     console.log(dailyData);
 
     fecthAPI();
-},['']);
+});
  
 const lineChart= (
  dailyData.length
